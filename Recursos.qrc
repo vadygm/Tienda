@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file alias="Recursos">Recursos/supermercado.png</file>
+        <file alias="Recursos1">Recursos1/carrito-de-compras.png</file>
+        <file alias="Recursos2">Recursos1/finalizar-la-sesion.png</file>
+        <file alias="Recursos3">Recursos1/salida.png</file>
+    </qresource>
+</RCC>
