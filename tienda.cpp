@@ -173,11 +173,13 @@ void Tienda::on_cmdFinalizar_clicked()
     QString subtotal=ui->outSubtotal->text();
     QString total=ui->outTotal->text();
     QString iva=ui->outIva->text();
-   // QString cantidad=ui->inCantidad->value();
+    QString direccion=ui->inDireccion->toPlainText();
+    // QString cantidad=ui->inCantidad->value();
     QString datos="   Nombre: "+nombre+"\n"+
                   "   Cedula: "+cedula+"\n"
                   "   Telefono: "+telefono+"\n"
                   "   E-mail: "+email+"\n"
+                  "   Direccion: "+direccion+"\n"
                   "   Detalles:"+"\n"
                   "   Productos :"+producto+"\n"
                   "   Cantidad :"+cantidad+"\n"
